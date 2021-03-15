@@ -1,0 +1,95 @@
+\hypertarget{linkedlist_8h}{}\doxysection{/home/dhaval/dhaval/linkedlist/lib/inc/linkedlist.h File Reference}
+\label{linkedlist_8h}\index{/home/dhaval/dhaval/linkedlist/lib/inc/linkedlist.h@{/home/dhaval/dhaval/linkedlist/lib/inc/linkedlist.h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}./structure\+Definition.\+h\char`\"{}}\newline
+Include dependency graph for linkedlist.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{linkedlist_8h_ad93b5bf1e636034231d631bd4fc3295c}{createlist}} (int n)
+\item 
+void \mbox{\hyperlink{linkedlist_8h_a2b1b3b892b74431397cd98478a497a1a}{print\+\_\+node}} (struct \mbox{\hyperlink{structnode}{node}} $\ast$ptr)
+\item 
+void \mbox{\hyperlink{linkedlist_8h_aa71d11d1ad613fd10a74da8bdc15bf2c}{add\+\_\+node}} (int a)
+\item 
+void \mbox{\hyperlink{linkedlist_8h_a1db467c52f9d170acd3dddfdec1954c1}{add\+\_\+begin}} (int a)
+\item 
+void \mbox{\hyperlink{linkedlist_8h_a49fa63b78e7060a430cfeb0f714a819b}{pos\+\_\+node}} (struct \mbox{\hyperlink{structnode}{node}} $\ast$ptr, int a, int pos)
+\item 
+struct \mbox{\hyperlink{structnode}{node}} $\ast$ \mbox{\hyperlink{linkedlist_8h_a8df8a84003dc1a86bf3519c7d487fa9f}{node\+\_\+begin}} (int a)
+\item 
+struct \mbox{\hyperlink{structnode}{node}} $\ast$ \mbox{\hyperlink{linkedlist_8h_a87f5ab97796c1ca5580be2bc3cfde00d}{del\+\_\+begin}} ()
+\item 
+struct \mbox{\hyperlink{structnode}{node}} $\ast$ \mbox{\hyperlink{linkedlist_8h_ac0362a40e349d29cf5e33da0196e0508}{del\+\_\+pos}} (int pos)
+\item 
+struct \mbox{\hyperlink{structnode}{node}} $\ast$ \mbox{\hyperlink{linkedlist_8h_a47485419c8b2e4a205c4edea02aa6e3e}{del\+\_\+entire}} ()
+\item 
+void \mbox{\hyperlink{linkedlist_8h_a5d412e03e46ddd49ef920b11eb230a80}{del\+\_\+end}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{linkedlist_8h_a1db467c52f9d170acd3dddfdec1954c1}\label{linkedlist_8h_a1db467c52f9d170acd3dddfdec1954c1}} 
+\index{linkedlist.h@{linkedlist.h}!add\_begin@{add\_begin}}
+\index{add\_begin@{add\_begin}!linkedlist.h@{linkedlist.h}}
+\doxysubsubsection{\texorpdfstring{add\_begin()}{add\_begin()}}
+{\footnotesize\ttfamily void add\+\_\+begin (\begin{DoxyParamCaption}\item[{int}]{a }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{linkedlist_8h_aa71d11d1ad613fd10a74da8bdc15bf2c}\label{linkedlist_8h_aa71d11d1ad613fd10a74da8bdc15bf2c}} 
+\index{linkedlist.h@{linkedlist.h}!add\_node@{add\_node}}
+\index{add\_node@{add\_node}!linkedlist.h@{linkedlist.h}}
+\doxysubsubsection{\texorpdfstring{add\_node()}{add\_node()}}
+{\footnotesize\ttfamily void add\+\_\+node (\begin{DoxyParamCaption}\item[{int}]{a }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{linkedlist_8h_ad93b5bf1e636034231d631bd4fc3295c}\label{linkedlist_8h_ad93b5bf1e636034231d631bd4fc3295c}} 
+\index{linkedlist.h@{linkedlist.h}!createlist@{createlist}}
+\index{createlist@{createlist}!linkedlist.h@{linkedlist.h}}
+\doxysubsubsection{\texorpdfstring{createlist()}{createlist()}}
+{\footnotesize\ttfamily void createlist (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{linkedlist_8h_a87f5ab97796c1ca5580be2bc3cfde00d}\label{linkedlist_8h_a87f5ab97796c1ca5580be2bc3cfde00d}} 
+\index{linkedlist.h@{linkedlist.h}!del\_begin@{del\_begin}}
+\index{del\_begin@{del\_begin}!linkedlist.h@{linkedlist.h}}
+\doxysubsubsection{\texorpdfstring{del\_begin()}{del\_begin()}}
+{\footnotesize\ttfamily struct \mbox{\hyperlink{structnode}{node}}$\ast$ del\+\_\+begin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{linkedlist_8h_a5d412e03e46ddd49ef920b11eb230a80}\label{linkedlist_8h_a5d412e03e46ddd49ef920b11eb230a80}} 
+\index{linkedlist.h@{linkedlist.h}!del\_end@{del\_end}}
+\index{del\_end@{del\_end}!linkedlist.h@{linkedlist.h}}
+\doxysubsubsection{\texorpdfstring{del\_end()}{del\_end()}}
+{\footnotesize\ttfamily void del\+\_\+end (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{linkedlist_8h_a47485419c8b2e4a205c4edea02aa6e3e}\label{linkedlist_8h_a47485419c8b2e4a205c4edea02aa6e3e}} 
+\index{linkedlist.h@{linkedlist.h}!del\_entire@{del\_entire}}
+\index{del\_entire@{del\_entire}!linkedlist.h@{linkedlist.h}}
+\doxysubsubsection{\texorpdfstring{del\_entire()}{del\_entire()}}
+{\footnotesize\ttfamily struct \mbox{\hyperlink{structnode}{node}}$\ast$ del\+\_\+entire (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{linkedlist_8h_ac0362a40e349d29cf5e33da0196e0508}\label{linkedlist_8h_ac0362a40e349d29cf5e33da0196e0508}} 
+\index{linkedlist.h@{linkedlist.h}!del\_pos@{del\_pos}}
+\index{del\_pos@{del\_pos}!linkedlist.h@{linkedlist.h}}
+\doxysubsubsection{\texorpdfstring{del\_pos()}{del\_pos()}}
+{\footnotesize\ttfamily struct \mbox{\hyperlink{structnode}{node}}$\ast$ del\+\_\+pos (\begin{DoxyParamCaption}\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{linkedlist_8h_a8df8a84003dc1a86bf3519c7d487fa9f}\label{linkedlist_8h_a8df8a84003dc1a86bf3519c7d487fa9f}} 
+\index{linkedlist.h@{linkedlist.h}!node\_begin@{node\_begin}}
+\index{node\_begin@{node\_begin}!linkedlist.h@{linkedlist.h}}
+\doxysubsubsection{\texorpdfstring{node\_begin()}{node\_begin()}}
+{\footnotesize\ttfamily struct \mbox{\hyperlink{structnode}{node}}$\ast$ node\+\_\+begin (\begin{DoxyParamCaption}\item[{int}]{a }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{linkedlist_8h_a49fa63b78e7060a430cfeb0f714a819b}\label{linkedlist_8h_a49fa63b78e7060a430cfeb0f714a819b}} 
+\index{linkedlist.h@{linkedlist.h}!pos\_node@{pos\_node}}
+\index{pos\_node@{pos\_node}!linkedlist.h@{linkedlist.h}}
+\doxysubsubsection{\texorpdfstring{pos\_node()}{pos\_node()}}
+{\footnotesize\ttfamily void pos\+\_\+node (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{structnode}{node}} $\ast$}]{ptr,  }\item[{int}]{a,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{linkedlist_8h_a2b1b3b892b74431397cd98478a497a1a}\label{linkedlist_8h_a2b1b3b892b74431397cd98478a497a1a}} 
+\index{linkedlist.h@{linkedlist.h}!print\_node@{print\_node}}
+\index{print\_node@{print\_node}!linkedlist.h@{linkedlist.h}}
+\doxysubsubsection{\texorpdfstring{print\_node()}{print\_node()}}
+{\footnotesize\ttfamily void print\+\_\+node (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{structnode}{node}} $\ast$}]{ptr }\end{DoxyParamCaption})}
+
